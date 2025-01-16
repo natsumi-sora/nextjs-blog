@@ -3,12 +3,17 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "date-fns": "^4.1.0",
+    "gray-matter": "^4.0.3",
+    "next": "^15.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
   },
   "engines": {
     "node": ">=18"
